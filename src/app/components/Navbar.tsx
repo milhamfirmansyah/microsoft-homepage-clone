@@ -1,7 +1,7 @@
 import React from 'react';
 import '../sass/navbar.css';
-import Image from 'next/image';
-import banner from '../assets/roughneck-banner.webp';
+import { Icon } from '@fortawesome/fontawesome-svg-core';
+import { BiSearch, BiCart } from 'react-icons/bi';
 
 function Navbar() {
   return (
@@ -32,12 +32,12 @@ function Navbar() {
       <ul className="right-menu">
         <li>
           <a href="#">
-            <i className="fas fa-search"></i>
+            <BiSearch className='icon-size'/>
           </a>
         </li>
         <li>
           <a href="#">
-            <i className="fas fa-shopping-cart"></i>
+            <BiCart className='icon-size'/>
           </a>
         </li>
       </ul>
