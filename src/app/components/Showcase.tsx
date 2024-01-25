@@ -20,7 +20,7 @@ function Showcase() {
           <img src="https://i.ibb.co/LZPVKq9/card1.png" alt="" />
           <h3>New Surface Pro 7</h3>
           <p>See how Katie Sowers, Asst. Coach for the 49ers, uses Surface Pro 7 to put her plans into play.</p>
-          <div style={{ position: 'relative'}}>
+          <div style={{ position: 'relative' }}>
             <div>
               <a href="#">Learn More</a>
             </div>
