@@ -5,7 +5,7 @@ import { BiGlobe } from 'react-icons/bi';
 function Footer() {
   return (
     <footer className="footer">
-      <div className='footer-top'>
+      <div className='footer-top' style={{display: 'flex', alignItems: 'center'}}>
         <BiGlobe className="icon-size" /> <span style={{ marginLeft: '6px' }}>English (United States)</span>
       </div>
       <div className="footer-bottom">
