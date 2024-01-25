@@ -7,20 +7,32 @@
   & .content {
     width: 40%;
     padding: 50px 0 0 30px;
+    position: relative;
   }
 
-  & p,
-  .carbon p {
+  & p {
     margin: 10px 0 20px;
   }
 }
 
 @media screen and (max-width: 700px) {
-  .xbox .content p {
-    display: none;
-  }
-
   .xbox .content h2 {
     margin-bottom: 20px;
+  }
+}
+
+@media screen and (max-width: 636px) {
+  .xbox .content {
+    width: 60%;
+  }
+
+  .xbox p {
+    background-color: rgba($color: #fff, $alpha: .5);
+  }
+}
+
+@media screen and (max-width: 432px) {
+  .xbox .content {
+    width: 80%;
   }
 }

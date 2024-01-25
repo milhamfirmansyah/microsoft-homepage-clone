@@ -26,6 +26,13 @@
   }
 }
 
+@media screen and (max-width: 992px) {
+  .links .links-inner {
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 0px;
+  }
+}
+
 @media screen and (max-width: 500px) {
   .links .links-inner {
     grid-template-columns: 1fr;

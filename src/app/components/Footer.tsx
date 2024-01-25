@@ -5,36 +5,18 @@ import { BiGlobe } from 'react-icons/bi';
 function Footer() {
   return (
     <footer className="footer">
-      <div className="footer-inner">
-        <div>
-          <BiGlobe className='icon-size'/> English (United States)
-        </div>
-        <ul>
-          <li>
-            <a href="#">Sitemap</a>
-          </li>
-          <li>
-            <a href="#">Contact Microsoft</a>
-          </li>
-          <li>
-            <a href="#">Privacy & cookies</a>
-          </li>
-          <li>
-            <a href="#">Terms of use</a>
-          </li>
-          <li>
-            <a href="#">Trademarks</a>
-          </li>
-          <li>
-            <a href="#">Safety & eco</a>
-          </li>
-          <li>
-            <a href="#">About our ads</a>
-          </li>
-          <li>
-            <a href="#">&copy; Microsoft 2020</a>
-          </li>
-        </ul>
+      <div className='footer-top'>
+        <BiGlobe className="icon-size" /> <span style={{ marginLeft: '6px' }}>English (United States)</span>
+      </div>
+      <div className="footer-bottom">
+        <a href="#">Sitemap</a>
+        <a href="#">Contact Microsoft</a>
+        <a href="#">Privacy & cookies</a>
+        <a href="#">Terms of use</a>
+        <a href="#">Trademarks</a>
+        <a href="#">Safety & eco</a>
+        <a href="#">About our ads</a>
+        <p>&copy; Microsoft 2020</p>
       </div>
     </footer>
   );
